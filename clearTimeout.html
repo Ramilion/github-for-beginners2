@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Интерактив2</title>
+</head>
+<body>
+<script src = "https://code.jquery.com/jquery-2.1.0.js"></script>
+<script>
+var doHomeworkAlarm = function (){
+	alert("Эй, пора делать домашку!");
+	};
+var timeoutId = setTimeout(doHomeworkAlarm, 3000);
+
+clearTimeout(timeoutId);
+</script>
+</body>
+</html>
